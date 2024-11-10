@@ -76,16 +76,22 @@ a {
 /* ---------------------- HEADER ------------------- */
 
 .header {
+
 }
-.container {
+.header .container {
+  display: flex;
 }
 .header-logo {
+  display: flex;
+  flex-grow: 1;
 }
 .header-nav {
 }
 .header-list {
+  display: flex;
 }
 .header-item {
 }
 .header-link {
+  padding: 20px 0;
 }
